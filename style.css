@@ -79,6 +79,7 @@ button {
     background: wheat;
     font-weight: bold;
     border: 2px double black;
+    padding: 5px;
 }
 
 ul {
