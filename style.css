@@ -48,6 +48,13 @@ body {
     align-items: center;
 }
 
+.body1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .body1-img img {
     width: 300px;
     height: 300px;
@@ -58,11 +65,20 @@ body {
 .text1, 
 .text2 {
     font-family: monospace;
+    text-align: center;
 }
 
 .text1 {
+    color: lightpink;
     font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+button {
+    background: wheat;
     font-weight: bold;
+    border: 2px double black;
 }
 
 ul {
