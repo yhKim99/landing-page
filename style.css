@@ -111,6 +111,12 @@ a {
     gap: 20px;
 }
 
+.body2-text {
+    font-size: 30px;
+    font-weight: bold;
+    color:darkorange;
+}
+
 .body2-text,
 .img-text {
     text-align: center;
@@ -130,4 +136,7 @@ a {
 .img-box img {
     height: 200px;
     width: 200px;
+    border: 3px ridge white;
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
