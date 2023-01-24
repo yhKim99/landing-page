@@ -53,7 +53,16 @@ body {
     height: 300px;
     border-radius: 100%;
     border: 5px double white;
-    
+}
+
+.text1, 
+.text2 {
+    font-family: monospace;
+}
+
+.text1 {
+    font-size: 50px;
+    font-weight: bold;
 }
 
 ul {
