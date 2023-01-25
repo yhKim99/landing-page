@@ -140,3 +140,25 @@ a {
     border-radius: 25px;
     margin-bottom: 10px;
 }
+
+
+/* Style the body 3 */
+.body3 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#author {
+    align-self:center;
+    font-weight: bold;
+    padding-left: 100px;
+    
+}
