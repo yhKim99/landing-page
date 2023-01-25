@@ -163,3 +163,25 @@ a {
     margin-left: 200px;
     padding-left: 200px;
 }
+
+/* Style the body 4 */
+.body4 {
+    background: burlywood;
+    padding: 50px;
+}
+
+.body4-box {
+    background: blanchedalmond;
+    margin: 0px 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: monospace;
+}
+
+.body4-text p {
+    margin: 10px;
+}
