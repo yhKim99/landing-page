@@ -168,6 +168,8 @@ a {
 .body4 {
     background: burlywood;
     padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .body4-box {
@@ -180,8 +182,22 @@ a {
     justify-content: space-around;
     align-items: center; 
     font-family: monospace;
+    font-size: 12px;
+    width: 800px;
+    height: 100px;
 }
 
 .body4-text p {
     margin: 10px;
+}
+
+.body4-box button {
+    border: 3px solid white;
+    background: blanchedalmond;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+button:hover {
+    background: burlywood;
 }
