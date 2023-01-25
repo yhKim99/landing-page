@@ -147,8 +147,9 @@ a {
     padding: 70px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
 }
 
 .quote {
@@ -157,8 +158,8 @@ a {
 }
 
 #author {
-    align-self:center;
+    font-size: 17px;
     font-weight: bold;
-    padding-left: 100px;
-    
+    margin-left: 200px;
+    padding-left: 200px;
 }
